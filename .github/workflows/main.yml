@@ -1,7 +1,7 @@
 # Release 工作流：为 Windows 生成并发布 NSIS (.exe) 安装包
 # 触发：push 到语义化 tag（例如 v1.2.3）会创建 GitHub Release 并上传安装包
 # 注意：签名由可选的 PFX secrets 控制（若未提供则上传未签名的 exe）
-name: "Release — Windows"
+name: "Release — Windows TEST"
 
 # 以 v 开头的 tag 触发此  工作流
 on:
